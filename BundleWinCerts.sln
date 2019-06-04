@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BundleWinCerts", "BundleWinCerts\BundleWinCerts.csproj", "{B47827F5-34A2-4866-AF69-8BA12037CBC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BundleWinCertsTest", "BundleWinCertsTest\BundleWinCertsTest.csproj", "{C5C3BAA2-C0C4-40B6-B4DC-46FF9D6983A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{B47827F5-34A2-4866-AF69-8BA12037CBC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B47827F5-34A2-4866-AF69-8BA12037CBC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B47827F5-34A2-4866-AF69-8BA12037CBC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C3BAA2-C0C4-40B6-B4DC-46FF9D6983A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C3BAA2-C0C4-40B6-B4DC-46FF9D6983A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C3BAA2-C0C4-40B6-B4DC-46FF9D6983A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C3BAA2-C0C4-40B6-B4DC-46FF9D6983A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

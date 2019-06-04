@@ -1,0 +1,3 @@
+BundleWinCertsTest/CABundle-CRLF.txt eol=crlf
+
+BundleWinCertsTest/CABundle-LF.txt eol=lf
