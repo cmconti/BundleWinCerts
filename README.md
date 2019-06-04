@@ -1,7 +1,13 @@
 # BundleWinCerts
 Extract the root and intermediate certs from the windows cert store and combine them with the unix-style cert bundle for use by tools such as git
 
+This was originally written to bundle certs from the windows cert store into the git ca-bundle file (for example to put corporate certs into the bundle for enterprise github usage"
 
-This first release assumes that you are bundling windows certs into C:\Program Files\Git\mingw64\ssl\certs\ca-bundle.crt, and creates the file C:\Program Files\Git\mingw64\ssl\certs\ca-bundle-plusWinRoot.crt as its output.  When run, it will proceed without prompting as this was written for use by gitInstConf.cmd in https://github.com/cmconti/DevEnvInit
+Usage:
+BundleWinCerts <existing cert bundle path> <new bundle path>
 
-TODO: parameterize program to work with any CA bundle
+<existing cert bundle path> must exist and cannot be overwritten
+<new bundle path> must be in a directory that exists and will be overwritten silently
+
+example:
+BundleWinCerts "C:\Program Files\Git\mingw64\ssl\certs\ca-bundle.crt" "C:\Program Files\Git\mingw64\ssl\certs\ca-bundle-plusWinRoot.crt"
